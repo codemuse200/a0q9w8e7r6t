@@ -162,8 +162,8 @@
     <script>
         const sys = "scheme";
         Promise.all([
-            fetch('/_blocks/navbar.html').then(res => res.text()),
-            fetch('/_blocks/footer.html').then(res => res.text())
+            fetch('./_blocks/navbar.html').then(res => res.text()),
+            fetch('./_blocks/footer.html').then(res => res.text())
         ])
         .then(([navbarHtml, footerHtml]) => {
             document.getElementById('navbar').innerHTML = navbarHtml;
@@ -173,9 +173,9 @@
             // Esperar al siguiente ciclo del event loop para asegurar que el DOM esté actualizado
             setTimeout(() => {
                 const scripts = [
-                    "script",
-                    "language",
-                    "/_global/mobile-general"
+                    "./script",
+                    "./language",
+                    "./_global/mobile-general"
                 ];
 
                 const root = "toolTip";
