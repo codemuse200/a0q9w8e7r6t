@@ -148,7 +148,7 @@ document.addEventListener("touchcancel", () => {
 // Función para reproducir una nota
 function playNote(note) {
   if (navigator.userActivation.isActive) {
-    const audio = new Audio(`../../_assets/sounds/piano-notes/${note}.ogg`); // Ruta del archivo de sonido
+    const audio = new Audio(`_assets/sounds/piano-notes/${note}.ogg`); // Ruta del archivo de sonido
     audio.play(); // Reproduce el sonido
   }
 }
