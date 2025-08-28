@@ -27,8 +27,8 @@
   <meta name="twitter:image" content="https://akordify.com/_assets/preview-image.png">
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="../../_blocks/footer-styles.css"> 
-  <link rel="stylesheet" href="../../_blocks/navbar-styles.css">
+  <link rel="stylesheet" href="/_blocks/footer-styles.css"> 
+  <link rel="stylesheet" href="/_blocks/navbar-styles.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -64,7 +64,7 @@
   <div id="containerMainBody" class="container-main"> 
     <div class="mainColumn container-main-left">
       <div class="image-container">
-        <img id="key-signature" src="../../_assets/images/keySignatures/ks-0.png" alt="Armadura" />
+        <img id="key-signature" src="/_assets/images/keySignatures/ks-0.png" alt="Armadura" />
       </div>
 
       <div class="container-left-column">
@@ -249,8 +249,8 @@
 
   <script>
       Promise.all([
-          fetch('../../_blocks/navbar.html').then(res => res.text()),
-          fetch('../../_blocks/footer.html').then(res => res.text())
+          fetch('/_blocks/navbar.html').then(res => res.text()),
+          fetch('/_blocks/footer.html').then(res => res.text())
       ])
       .then(([navbarHtml, footerHtml]) => {
           document.getElementById('navbar').innerHTML = navbarHtml;
@@ -264,7 +264,7 @@
                   "script.js",
                   "language.js",
                   "texts.js",
-                  "../../_global/mobile-general.js"
+                  "/_global/mobile-general.js"
               ];
 
               function loadScriptsSequentially(scripts, index = 0) {
