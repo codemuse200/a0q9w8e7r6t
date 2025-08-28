@@ -8,25 +8,25 @@ document.querySelectorAll('img').forEach(img => {
 // --------------- FIN DEL FOR ALL --------------
 
 const sharpImages = [
-  "../../_assets/images/keySignatures/ks-0.png", // Sin sostenidos ni bemoles
-  "../../_assets/images/keySignatures/ks-s1.png", // 1 sostenido
-  "../../_assets/images/keySignatures/ks-s2.png", // 2 sostenidos
-  "../../_assets/images/keySignatures/ks-s3.png", // 3 sostenidos
-  "../../_assets/images/keySignatures/ks-s4.png", // 4 sostenidos
-  "../../_assets/images/keySignatures/ks-s5.png", // 5 sostenidos
-  "../../_assets/images/keySignatures/ks-s6.png", // 6 sostenidos
-  "../../_assets/images/keySignatures/ks-s7.png"  // 7 sostenidos
+  "/_assets/images/keySignatures/ks-0.png", // Sin sostenidos ni bemoles
+  "/_assets/images/keySignatures/ks-s1.png", // 1 sostenido
+  "/_assets/images/keySignatures/ks-s2.png", // 2 sostenidos
+  "/_assets/images/keySignatures/ks-s3.png", // 3 sostenidos
+  "/_assets/images/keySignatures/ks-s4.png", // 4 sostenidos
+  "/_assets/images/keySignatures/ks-s5.png", // 5 sostenidos
+  "/_assets/images/keySignatures/ks-s6.png", // 6 sostenidos
+  "/_assets/images/keySignatures/ks-s7.png"  // 7 sostenidos
 ];
 
 const flatImages = [
-  "../../_assets/images/keySignatures/ks-0.png", // Sin sostenidos ni bemoles
-  "../../_assets/images/keySignatures/ks-f1.png", // 1 bemol
-  "../../_assets/images/keySignatures/ks-f2.png", // 2 bemoles
-  "../../_assets/images/keySignatures/ks-f3.png", // 3 bemoles
-  "../../_assets/images/keySignatures/ks-f4.png", // 4 bemoles
-  "../../_assets/images/keySignatures/ks-f5.png", // 5 bemoles
-  "../../_assets/images/keySignatures/ks-f6.png", // 6 bemoles
-  "../../_assets/images/keySignatures/ks-f7.png"  // 7 bemoles
+  "/_assets/images/keySignatures/ks-0.png", // Sin sostenidos ni bemoles
+  "/_assets/images/keySignatures/ks-f1.png", // 1 bemol
+  "/_assets/images/keySignatures/ks-f2.png", // 2 bemoles
+  "/_assets/images/keySignatures/ks-f3.png", // 3 bemoles
+  "/_assets/images/keySignatures/ks-f4.png", // 4 bemoles
+  "/_assets/images/keySignatures/ks-f5.png", // 5 bemoles
+  "/_assets/images/keySignatures/ks-f6.png", // 6 bemoles
+  "/_assets/images/keySignatures/ks-f7.png"  // 7 bemoles
 ]
 
 const pitches = {
