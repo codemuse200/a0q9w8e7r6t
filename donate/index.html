@@ -27,8 +27,8 @@
   <meta name="twitter:image" content="https://akordify.com/_assets/preview-image.png">
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="../../_blocks/footer-styles.css"> 
-  <link rel="stylesheet" href="../../_blocks/navbar-styles.css">
+  <link rel="stylesheet" href="/_blocks/footer-styles.css"> 
+  <link rel="stylesheet" href="/_blocks/navbar-styles.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
@@ -97,7 +97,7 @@
                 </div>  
                 
                 <div class="smile">
-                    <img src="../../_assets/images/smile.png" draggable="false" class="unselectable"/>
+                    <img src="/_assets/images/smile.png" draggable="false" class="unselectable"/>
                 </div>
             </div>
 
@@ -112,8 +112,8 @@
 
     <script>
         Promise.all([
-            fetch('../../_blocks/navbar.html').then(res => res.text()),
-            fetch('../../_blocks/footer.html').then(res => res.text())
+            fetch('/_blocks/navbar.html').then(res => res.text()),
+            fetch('/_blocks/footer.html').then(res => res.text())
         ])
         .then(([navbarHtml, footerHtml]) => {
             document.getElementById('navbar').innerHTML = navbarHtml;
@@ -125,7 +125,7 @@
                 // Cargar scripts dinámicamente
                 const scripts = [
                     "language.js",
-                    "../../_global/mobile-general.js"
+                    "/_global/mobile-general.js"
                 ];
 
                 function loadScriptsSequentially(scripts, index = 0) {
